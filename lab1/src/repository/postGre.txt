@@ -1,0 +1,26 @@
+DROP TABLE Rentals;
+
+CREATE TABLE Movies
+(
+  ID SERIAL PRIMARY KEY UNIQUE ,
+  Rating INT,
+  YearOfRelease INT,
+  Name VARCHAR(50)
+);
+
+CREATE TABLE Client
+(
+  ID SERIAL PRIMARY KEY UNIQUE,
+  Name VARCHAR(50)
+);
+
+CREATE TABLE Rentals
+(
+  ID SERIAL PRIMARY KEY UNIQUE,
+  MovieID INT UNIQUE,
+  ClientID INT UNIQUE
+);
+
+SELECT * FROM client;
+SELECT * FROM Rentals;
+SELECT * FROM Movies;
