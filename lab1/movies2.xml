@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rentals>
+    <rental>
+        <movie>1</movie>
+        <client>3</client>
+    </rental>
+    <rental>
+        <movie>2</movie>
+        <client>2</client>
+    </rental>
+    <rental>
+        <movie>3</movie>
+        <client>1</client>
+    </rental>
+<rental>
+<movie>3</movie>
+<client/>
+</rental>
+<rental>
+<movie>2</movie>
+<client/>
+</rental>
+<rental>
+<movie>1</movie>
+<client/>
+</rental>
+</rentals>
