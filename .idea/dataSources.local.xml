@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="sdiProject@localhost" uuid="09066b93-a72c-4a36-98e6-2ca617aa51b4">
+      <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <resolve-scope>sdiProject:postgres,public</resolve-scope>
+    </data-source>
+  </component>
+</project>
